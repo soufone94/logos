@@ -1,0 +1,2930 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+    
+
+    <meta name="apple-itunes-app" content="app-id=1112438268">
+    <meta name="google-play-app" content="app-id=com.sfr.android.sfrsport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sports extrêmes - SFR Sport</title>
+    <meta name="keywords" content="Sports extrêmes, actualités sport, sfr sport" />
+    
+    <meta name="description" content="" />
+    
+    
+    <script>
+        zvars=window.zvars||[];
+        zvars["prop31"]="Sport";
+        zvars["prop11"]="Sports extremes";
+        zvars["prop36"]="";
+        zvars["prop43"]="Sports extremes - SFR Sport";
+    </script>
+    
+	
+    
+
+
+
+ 
+    <script type="text/javascript" src='//static.s-sfr.fr/sport/resources/js/frameworks/jquery/sfr.jquery.js' charset="UTF-8"></script>
+ 
+    <!--script src='//static.s-sfr.fr/sport/resources/ist/param.sfr.min.js' charset="UTF-8"></script-->
+    <script src='//static.s-sfr.fr/sport/resources/js/utils/jquery.noConflict.js' charset='UTF-8'></script>
+
+    
+    <link rel="icon" type="image/png" href="//static.s-sfr.fr/media/favicon.png" />
+
+
+
+<script>
+
+_stats_univers="portail";
+_stats_pagename="Sport/Flux Article";	
+_is_authenticated=false;
+_stats_timestamp="1499600586770";
+sfrIstConfig=djangoUtils={};
+
+
+
+
+
+sfrIstConfig.context = 'static.s-sfr.fr/sport';
+</script>
+
+	
+    <link rel="canonical" href="https://sport.sfr.fr/sports-extremes/" />
+	
+	
+	
+    <link rel="stylesheet" type="text/css" href="//static.s-sfr.fr/sport/resources/css/smart-app-banner.css">
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+
+    <meta name="twitter:site" content="@SFRSport" />
+
+
+
+    <meta name="twitter:title" content="" />
+
+
+
+
+
+	<meta name="twitter:description" content="" />
+
+
+
+    <meta name="twitter:image" content="https:" />
+
+
+
+
+
+
+
+
+
+
+
+<!--END OF SOCIAL-->
+
+
+
+
+
+<link rel="apple-touch-startup-image" type="image/png" href="http://m.sfr.fr/mist/assets/logos/apple-touch-startup.png"/>
+<link rel="apple-touch-icon" type="image/png" href="http://m.sfr.fr/mist/assets/logos/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://m.sfr.fr/mist/assets/logos/iphone_114x114.png" />
+<link rel="android-touch-icon" href="http://m.sfr.fr/mist/assets/logos/apple-touch-icon.png" />
+
+<script type="application/ld+json">
+{"@context" : "http://schema.org",
+  "@type" : "Organization",
+  "logo": "http://static.s-sfr.fr/media/logo-3.jpg",
+  "name" : "SFR",
+  "url" : "http://www.sfr.fr",
+  "sameAs" : [ "http://www.facebook.com/SFR",
+      "http://twitter.com/SFR",
+      "http://fr.linkedin.com/company/sfr",
+      "http://plus.google.com/113745061295301596108/posts",
+      "http://www.youtube.com/user/sfr"]}
+</script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="//static.s-sfr.fr/sport/resources/css/sport.css">
+<style>
+    *{
+        outline: none;
+    }
+    body{
+        background-color: #f8f8f8;
+    }
+    a{
+        text-decoration: none;
+        color: initial;
+    }
+    .row .row{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hidden{
+        display: none;
+    }
+    .loader{
+        background: #FFF;
+    }
+    .loader img{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .sport-list{
+        max-width: 1285px;
+    }
+    
+    /* ARTICLE FILTERS */
+    .article-filter {
+        position: relative;
+        z-index: 1;
+        font-size: 0;
+        margin: 0;
+        padding: 0 15px;
+        background: #FFF;
+        display: inline-block;
+        vertical-align: top;
+        height: 24px;
+    }
+    .article-filter__item{
+        display: inline-block;
+        font-size: 14px;
+        font-family: "SFR-Regular", Sans-Serif;
+        color: #666;
+        vertical-align: top;
+        height: 100%;
+        margin-left: 26px;
+        cursor: pointer;
+    }
+    .article-filter__item:last-child{
+        margin-right: 0;
+    }
+    .article-filter__item:before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 10px;
+        background-color: #adadad;
+    }
+    .article-filter .active {
+        color: #e2001a;
+    }
+    .article-filter .active:before {
+        background-color: #e2001a;
+    }
+    
+    /* ARTICLE */
+    .title--1{
+        font-size: 34px;
+        margin: 20px 0 15px 0;
+    }
+    .title-th{
+        font-family: "SFR-Bold", Sans-Serif;
+        font-size: 22px;
+        color: #000;
+        margin: 15px 0 15px 0;
+        padding: 0;
+    }
+    
+    .post-infos .fa{
+        position: relative;
+        font-size: 20px;
+        vertical-align: top;
+        margin-right: 0;
+        color: #a0a0a0;
+    }
+    .post-infos .sep, .author{
+        padding: 0 5px;
+    }
+    .post-infos .sep{
+        border-right: solid 1px #a0a0a0;
+    }
+    .date{
+        line-height: initial;
+    }
+    p.paragraphe{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .thumbnail-list{
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #FFF;
+    }
+    .thumbnail-img{
+        position: relative;
+        width: 100%;
+        height: 170px;
+        /*background-position: center center;*/
+        background-size: cover;
+    }
+    .thumbnail-img.small {
+        height: 90px;
+    }
+    .thumbnail-content-info{
+        display: none;
+    }
+    .article-item{
+        margin-bottom: 10px;
+        background: #FFF;
+    }
+    .result{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        border-top: solid 1px #e3e3e3;
+        border-bottom: solid 1px #e3e3e3;
+        font-family: 'ClearSans-Light', 'SFR-Bold', Sans-Serif;
+        font-size: 12px;
+    }
+    .result-score{
+        font-family: 'ClearSans-Bold', 'SFR-Bold', Sans-Serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    .result-teamName.right{
+        text-align: right;
+    }
+    .team-flag{
+        width: initial;
+        vertical-align: middle;
+    }
+    .no-articles{
+        padding: 40px 0;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'SFR-Bold', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    /* SIDEBAR */
+    .sidebar__block:first-child {
+        margin-top: 0;
+    }
+    @media screen and (min-width:768px){
+        .article-filter {
+            float: right;
+        }
+        .article-filter__item{
+            margin-right: 30px;
+        }
+        .title--1{
+            margin: 0 0 15px 0;
+        }
+        .article-item.mea .title--1{
+            margin: 15px 0;
+        }
+        .article-item.mea .title--1, .title--1.title-th{
+            margin: 15px 0;
+        }
+        .article-container{
+            padding: 20px;
+            background: #FFF;
+        }
+        .article-item{
+            margin-bottom: 0;
+            padding: 40px 0;
+            border-bottom: solid 1px #e3e3e3;
+            background: transparent;
+        }
+        .article-item:first-child{
+            padding:0;
+            border-bottom: none;
+        }
+        .article-item:last-child{
+            border-bottom: none;
+        }
+        .article-item-details{
+            padding-left: 15px;
+        }
+        .thumbnail-list{
+            padding: 10px 0 40px 0;
+            border-bottom: solid 1px #e3e3e3;
+        }
+        .thumbnail-item:first-child{
+            padding-left: 0; 
+        }
+        .thumbnail-item:last-child{
+            padding-right: 0; 
+        }
+        .thumbnail-img{
+            height: 213px;
+        }
+        .article-item.mea .thumbnail-img{
+            height: 370px;
+        }
+        .thumbnail-img.small{
+            height: 180px;
+        }
+        .thumbnail-content-info{
+            display: none;
+        }
+        .article-simple .article-item:first-child{
+            padding: 40px 0;
+            border-bottom: solid 1px #e3e3e3;
+        }
+        .no-articles{
+            font-size: 35px;
+        }
+        .article-item.mea .post-infos{
+           margin-bottom: 10px;
+        }
+    }
+    @media screen and (max-width:767px){
+        .article-item {
+            padding: 10px;
+        }
+        .article-item:first-child {
+            margin-bottom: 0;
+        }
+        .title--1 {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .thumbnail-item:last-child{
+            padding: 0;
+        }
+        .thumbnail-item:last-child .thumbnail-img.small{
+            height: 170px;
+        }
+        .thumbnail-item:last-child .thumbnail-content-info{
+            display: block;
+        }
+    }
+    @media screen and (max-width:1024px){
+        [class*="column"] + [class*="column"]:last-child {
+            float: left;
+        }
+        .date .fa {
+            display: inline-block;
+        }
+    }
+</style>
+    <script>sfrIstConfig.context='static.s-sfr.fr/sport'</script>
+    <script src="//static.s-sfr.fr/stats/header.js" charset="UTF-8"></script>
+    <link rel="stylesheet" href="https://static.s-sfr.fr/sport/resources/css/sfr-sport.demo.css">
+    <link rel="stylesheet" href="https://static.s-sfr.fr/sport/resources/css/font-awesome-4.6.3.css">
+    <link rel="stylesheet" href="//static.s-sfr.fr/resources/css/responsive/fonts.css" type="text/css"> 
+</head>
+<body>
+    
+<!-- header -->
+<style>
+body,#eTpH,#eTpH *{margin:0;padding:0}
+#eTpH *{box-sizing:content-box}
+#eTpH{background:#181818;text-align:left}
+#eTpH>nav{margin:0 auto;padding:0 20px;overflow:hidden}
+#eTpH>nav>ul{font-size:0}
+#eTpH>.T,#eTpH>.M>*,#eTpH>.N>*{max-width:1318px;margin:0 auto}
+#eTpH.S>.T,#eTpH.S>.M>*{max-width:984px}
+#eTpH>.T{height:32px}
+#eTpH>.T img{display:inline-block;width:18px;margin:0 -5px -4px 3px}
+#eTpH>.T>.R{float:right}
+#eTpH>.T li{display:inline-block;padding: 0 5px;font:12px arial;color:#f2f2f2}
+#eTpH>.T li:first-child{padding-left:0!important}
+#eTpH>.T li>a{color:#f2f2f2;line-height:32px;text-decoration:none}
+#eTpH>.T>.R>li:before{content:"|";display:inline-block;padding-right:9px}
+#eTpH>.T>.R>li:first-child:before{display:none}
+#eTpH>.T>.L>li{padding:0 10px}
+#eTpH>.T>.L>.S{position:relative;width:28px}
+#eTpH>.T>.L>.S img{position:absolute;top:-18px;width:28px;height:28px}
+#eTpH>.M{background:#302d2d;height:52px}
+#eTpH>.M li:first-child>a{padding:0}
+#eTpH>.M img{height:30px;padding:11px 7px 0 0}
+#eTpH>.M li{display:inline-block;vertical-align:top}
+#eTpH>.M li>a{display:block;color:#adadad;font:13px "SFR-Bold",arial;line-height:52px;text-decoration:none;text-transform:uppercase;letter-spacing:1px;padding:0 20px;height:100%}
+#eTpH>.M li.S>a{color:#fff}
+#eTpH>.M form+li>a{padding-left:0!important}
+#eTrec{float:right;margin:9px 0 0;width:calc(100% - 560px);max-width:50%}
+#eTrec input{height:20px;border:1px solid #3c81f7;padding:5px;float:left}
+#eTrec [name=q]{width:calc(100% - 48px);background:url(//static.s-sfr.fr/media/rgoo.png) #fff no-repeat 0 4px}
+#eTrec [name=q]:focus{background:#fff}
+#eTrec [name=ok]{width:20px;background:#3c81f7 url(//static.s-sfr.fr/media/picto-loupe.png) center no-repeat;background-size:50%;cursor:pointer}
+#eTpH.X>.M,#eTpH.X>.M li:last-child{height:9999px}
+#eTpH.X>.M li{margin:0 0 9px}
+#eTpH.X>.M li+li{display:block;background:#fff;padding:0 30px;margin:0}
+#eTpH.X>.M li+li a{color:#000;padding:0;border-bottom:1px solid #ddd;text-transform:capitalize;font-size:18px;height:52px}
+#eTpH>.N{display:none;background:#fff;border-bottom:1px solid #ddd}
+#eTpH>.N li{display:inline-block;font:22px FontAwesome;padding:19px 9px 18px;vertical-align:top}
+#eTpH>.N li+li{font:16px SFR-Bold,sans-serif;padding:20px 9px;margin-left:35px}
+#eTpH>.N li>a{color:#000}
+#eTpH>.N li.S{color:#E2001A;border-bottom:4px solid #E2001A}
+#eTpHb{display:none;color:#a5a5a5;margin:0;padding:5px 7px;font:22px FontAwesome;position:absolute;top:0;right:0;cursor:pointer}
+@media (max-width:1024px){#eTpH>.M li>a{padding:0 9px}#eTrec{width:calc(100% - 450px)}}
+@media (max-width:767px){#eTpH>nav{padding:0 4px;overflow:hidden}#eTpH>.T{margin-right:36px}#eTpH>.M li>a{padding:0 4px}#eTrec{width:calc(100% - 390px)}.headerBottom__more>a{margin:-4px -2px 0 0}#eTpH>.N{display:none!important}}
+@media (max-width:599px){#eTrec>[name=q]{display:none}#eTrec{width:36px}#eTpH>.T>.R{display:none}}
+@media (max-width:479px){#eTpH>.M form+li{max-width:calc(100% - 40px)}#eTpH>.M li{display:none}#eTpH>.M li.S,#eTpH>.M form+li{display:inline-block}#eTpHb{display:block}}
+</style>
+<header id="eTpH">
+<nav class="T"><ul class="R">
+    <li><a style="color:#00e094;font-weight:bold" href="https://www.red-by-sfr.fr/#sfrintid=P_meta_red" target="_blank">RED by SFR</a></li>
+	<li><a href="http://tv.sfr.fr#sfrintid=P_meta_guide-tv">Guide TV &amp; VOD</a></li>
+	<li><a href="https://forum.sfr.fr/#sfrintid=P_meta_forum">Forum</a></li>
+	<li><a href="https://webmail.sfr.fr/#sfrintid=P_meta_mails"><img src="//static.s-sfr.fr/media/bcsfr_sfr_picto_mail_w.png"/></a></li>
+</ul><ul class="L">
+	<li class="S"><a href="https://www.sfr.fr/#sfrintid=P_meta_logo"><img src="//static.s-sfr.fr/media/logo-3.jpg" alt="Logo SFR"/></a> </li>
+	<li><a href="https://www.sfr.fr/box-internet/#sfrintid=P_meta_box">Box</a></li>
+	<li><a href="https://www.sfr.fr/telephonie-mobile/#sfrintid=P_meta_mob">Mobile</a></li>
+	<li><a href="https://www.sfr.fr/avantages-sfr-family.html#sfrintid=P_meta_box-mob">Box + Mobile</a></li>
+	<li><a href="https://assistance.sfr.fr/#sfrintid=P_meta_ass">Assistance</a></li>
+</ul></nav>
+<nav class="M"><ul>
+    <form id="eTrec" action="https://www.sfr.fr/recherche/google" method="post">
+        <input type="hidden" name="channel" value="Portail_Mobile"/>
+        <input type="text" name="q" maxlength="400"/>
+        <input type="submit" name="ok" value=""/>
+    </form>
+	<li><a href="https://www.sfr.fr/portail.html#sfrintid=P_nav_logo"><img src="//static.s-sfr.fr/media/logoportailsfr-new.png" alt=""/></a></li>
+	<li data-hi="sport@"><a href="https://sport.sfr.fr/#sfrintid=P_nav_sport">Sport</a></li>
+	<li data-hi="news@"><a href="https://news.sfr.fr/#sfrintid=P_nav_news">News</a></li>
+	<li data-hi="tv@|club-video@"><a href="http://tv.sfr.fr/#sfrintid=P_nav_play">Play</a></li>
+	<li><a href="http://magazine-presse.sfr.fr/#sfrintid=P_nav_presse" target="_blank">Presse</a></li>
+</ul></nav>
+<nav class="N"><ul></ul></nav>
+</header>
+<div id="eTpHb">&#xf039;</div>
+<script>!function(_,$){if(_&&$){
+if(_.T('news@|sport@'))$('#eTpHb').remove();
+if(_.T('tv@|club-video@')||_.par('tv')){
+    _.font('FontAwesome');
+    for(var A=[
+        'tv@||&#xf015;|tv',
+        'tv@/epg/maintenant/|tv@/epg|Guide TV|tvepg',
+        'play@/home||VOD illimit&eacute;e|play|1',
+        "club-video@||VOD &agrave; l'acte|clubvideo",
+        'tv@/television-sur-ordinateur-par-internet/|tv@/tel|TV en direct|tvdirect',
+        'tv@/enregistrement-a-distance/|tv@/enr|Ma TV|matv'],
+        i=0,r='',o;i<A.length;i++)o=A[i].split('|'),r+='<li data-hi="'+(o[1]||o[0])+'"><a href="http://'+o[0].replace('@','.sfr.fr')+'#sfrintid=P_nav_'+o[3]+(o[4]?'" target="_blank">':'">')+o[2]+'</a></li>';
+    $('#eTpH>.N>ul').html(r);
+    $('#eTpH>.N').show()}
+$('#eTpHb').click(function(x){x=this.x;$sfr('body').css('overflow',x?'auto':'hidden');$sfr(this).html(x?'&#xf039;':'&#x2715;');this.x=!x;$sfr('#eTpH').toggleClass('X')});
+$('#eTpH li[data-hi]').each(function(i,o){if(_.T($(o).data('hi'))){$(o).addClass('S');if(i>3)$('#eTpH>.N li:eq(0)').removeClass('S')}});
+}}(window._eT,window.$sfr)</script>
+<style>
+
+    .headerBottom {
+        background: #FFF;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+        overflow: hidden;
+        height: 58px;
+        position: relative;
+        z-index: 1;
+    }
+    .headerBottom__wrapper {
+        max-width: 1318px;
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .headerBottom__content {
+        font-size: 0;
+        white-space: nowrap;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        max-width: 1318px;
+        margin: 0 auto;
+        padding: 0 20px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .headerBottom__content li.active a {
+        color: #E2001A;
+    }
+    .headerBottom__content li.active a:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        background: #E2001A;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        margin: auto;
+    }
+    .headerBottom__category, 
+    .headerBottom__subCategory {
+        display: inline-block;
+        vertical-align: top;
+        white-space: normal;
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .headerBottom__category {
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .headerBottom__category > li {
+        display: inline-block;
+        font-size: 16px;
+        font-family: "SFR-Bold", Sans-Serif;
+        color: #333;
+        vertical-align: top;
+        height: 100%;
+    }
+    .headerBottom__category > li > a {
+        display: inline-block;
+        color: #333;
+        line-height: 58px;
+        text-decoration: none;
+        height: 100%;
+        position: relative;
+        margin: 0 23px;
+        padding: 0 5px;
+    }
+    .headerBottom__category .item--home {
+        padding: 0;
+        width: 36px;
+        text-align: center;
+        margin: 0;
+    }
+    .headerBottom__category .item--home .fa {
+        font-size: 20px;
+        position: relative;
+        top: 1px;
+    }
+    .headerBottom__subCategory {
+        font-size: 0;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: -15px;
+    }
+    .headerBottom__subCategory:before {
+        content: "•";
+        display: inline-block;
+        padding-right: 5px;
+        padding: 0;
+        color: #b3b3b3;
+        font-size: 26px;
+        line-height: 58px;
+    }
+    .headerBottom__subCategory > li {
+        display: inline-block;
+        font-size: 16px;
+        font-family: "SFR-Regular", Sans-Serif;
+        color: #333;
+        vertical-align: top;
+        height: 100%;
+    }
+    .headerBottom__subCategory > li > a {
+        display: inline-block;
+        color: #333;
+        line-height: 58px;
+        text-decoration: none;
+        position: relative;
+        margin: 0 12px;
+        padding: 0 3px;
+        height: 100%;
+    }
+    .headerBottom__more {
+        background: url(//static.s-sfr.fr/media/faded--right-white.png) no-repeat -25px 0;
+        display: inline-block;
+    }
+    .headerBottom__more > a {
+        display: inline-block;
+        color: #333;
+        line-height: 58px;
+        text-decoration: none;
+        padding: 0 15px;
+        height: 100%;
+    }
+    .item--more {
+        font-size: 16px;
+        font-family: "SFR-Regular", Sans-Serif;
+        position: relative;
+    }
+    .item--more:after {
+        content: "\f078";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #E2001A;
+        margin-left: 14px;
+        font-size: 14px;
+    }
+    
+    .navigation, .category--selected {
+        background: #f5f5f5; 
+    }
+    .navigation {
+        position: relative;
+    }
+    .navigation--fixed {
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        max-width: 1600px;
+        margin: auto;
+        top: 84px;
+        bottom: 0;
+        overflow: auto;
+    }
+    .navigation__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .navigation--fixed .navigation__close {
+        position: fixed;
+        top: 84px;
+        right: 0;
+        left: 0;
+        max-width: 1600px;
+        margin: auto;
+        text-align: right;
+    }
+    .close {
+        width: 50px;
+        height: 50px;
+        background: #E2001A;
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+    }
+    .close:after {
+        content:"";
+        background: url(//static.s-sfr.fr/media/close-sprite.png) 0 -41px no-repeat;
+        width: 17px;
+        height: 17px;
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .navigation__content {
+        max-width: 700px; 
+        margin: auto;
+        padding-bottom: 70px;
+    }
+    .navigation__content:before, .navigation__content:after {
+        display: table;
+        content: "";
+    }
+    .navigation__content:after {
+        clear: both;
+    }
+    .navigation__categories {
+        font-size: 0;
+        margin: 20px auto 0;
+        padding: 0 70px;
+        position: relative;
+        overflow: hidden;
+    }
+    .navigation__categories li {
+        font-size: 18px;
+        font-family: "SFR-Light", Arial;
+        display: block;
+        text-transform: uppercase;
+        color: #313131;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        
+    }
+    .navigation__categories li > a {
+        display: block;
+        padding: 20px 1px;
+        text-decoration: none;
+        color: #313131;
+        transition: background 100ms ease;
+        line-height: 1;
+        position: relative;
+    }
+    .category--hasCategory > a:after {        
+        content: "\f105";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #999;
+        font-size: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 28px;
+    }
+    .category--hasCategory ul {
+        display: none;
+    }     
+    .navigation__categories > li.category--selected,
+    .navigation__categories > li.category--selected > a {
+        cursor: default;
+    }
+    .navigation__categories > li.category--selected > a:before {
+         display: none;
+    }
+    .navigation__categories .category--title {
+        border: 0;
+    }
+    .navigation__categories .category--title a {
+        padding: 20px 0;
+        display: block;
+        font-size: 18px;
+        font-family: "SFR-Bold", Sans-Serif;
+        text-transform: uppercase;
+        color: #000;
+        height: 100%;
+        line-height: 1;
+    }
+    .category--selected {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 11;
+        left: 70px;
+        right: 70px;
+        margin: auto;
+    }
+    .category--selected > a {
+        padding: 20px 0;
+        display: block;
+        font-size: 18px;
+        font-family: "SFR-Bold", Sans-Serif;
+        text-transform: uppercase;
+        color: #000;
+        position: relative;
+    }
+    .category--selected > a:after {
+        display: none;
+    }
+    .category--selected > a:before {        
+        content: "\f104";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #E2001A;
+        font-size: 22px;
+        position: absolute;
+        top: 17px;
+        left: -50px;
+        height: 28px;
+    }
+    .category--selected > ul {
+        position: absolute;
+        z-index: 1;
+        top: 59px;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .category--home .fa {
+        display: none;
+    }
+    .noScroll {
+        overflow: hidden!important;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 1025px){
+        .headerBottom__category li:nth-child(n+7),
+        .headerBottom__subCategory li:nth-child(n+6) {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 1024px) and (min-width: 768px){
+        .headerBottom__category {
+            max-width: 630px;
+            overflow: hidden;
+            white-space: normal;
+            height: 100%
+        }
+        .headerBottom__subCategory li:nth-child(n+4) {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 767px){
+
+        .headerBottom {
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: 0;
+            text-align: center;
+        }
+        .headerBottom__content {
+            padding: 0;
+            width: 100%;
+        }
+        .headerBottom .headerBottom__category, 
+        .headerBottom .headerBottom__subCategory {
+            display: none;
+        }
+        .headerBottom__wrapper {
+            height: 100%;
+        }
+        .headerBottom__more {
+            padding: 0;
+            position: static;
+            background: transparent;
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+        .headerBottom__more > a {
+            padding: 0;
+            width: 100%;
+            display: block;
+        }
+        .item--more {
+            font-size: 0;
+        }
+        .item--more:after {
+            content: "\f039";
+            color: #a5a5a5;
+            margin: 0;
+            font-size: 22px;
+            line-height: 42px;
+        }
+        .item--more.open:after {
+            content:"";
+            background: url(//static.s-sfr.fr/media/close-sprite.png) 0 0 no-repeat;
+            width: 17px;
+            height: 17px;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .navigation {
+            position: fixed;
+            top: 40px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 20;
+            overflow-y: scroll; /* has to be scroll, not auto */
+            -webkit-overflow-scrolling: touch;
+        }
+        .navigation, .category--selected {
+            background: #fff; 
+        }
+        .navigation__categories {
+            padding: 0 40px;
+        }
+        .navigation__close {
+            display: none
+        }
+        .navigation__categories li {
+            font-family: "SFR-bold", Arial;
+            text-transform: none;
+        }
+        .navigation__categories > li.category--selected > a:before {
+             display: block;
+        }
+        .category--selected {
+            left: 40px;
+            right: 40px;
+        }
+        .category--selected > a {
+            text-align: right
+        }
+        .category--selected > a:before {
+            left: 0;
+        }
+        .category--home {
+            font-family: "SFR-Light", Arial;
+            font-size: 15px;
+        }
+        .category--home .fa {
+            display: inline-block;
+        }
+    }
+ </style>
+
+
+ 
+
+
+
+ 
+ 
+  <section class="header">
+    
+    <nav class="headerBottom">
+        <div class="headerBottom__wrapper">
+            <div class="headerBottom__content">
+                <ul class="headerBottom__category">
+                    <li>
+                        <a href="//sport.sfr.fr" class="item--home" onclick="s_tl(this,'o',s.pageName+'/Nav/sport'); return true;"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    <li class="active">
+                        <a href="//sport.sfr.fr/sports-extremes/" onclick="s_tl(this,'o',s.pageName+'/Nav/sports-extremes'); return true;">Sports extrêmes</a>
+                    </li>
+                    
+                </ul>
+                
+                <ul class="headerBottom__subCategory">
+                    
+                </ul>
+                <div class="headerBottom__more">
+                    <a href="#" class="item--more js-viewMore">Plus</a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </nav>
+ </section>
+ 
+ <section class="navigation navigation--fixed" style="display: none">
+    <div class="navigation__close"><span class="close js-viewMore"></span></div>
+    <nav class="navigation__content">
+        <ul class="navigation__categories">
+            <li>
+                <a href="//www.sfr.fr/portail.html" onclick="s_tl(this,'o',s.pageName+'/Nav/accueil'); return true;">Accueil</a>
+            </li>
+            
+            
+            
+            <li class="category--hasCategory">
+                <a href="#">SFR Sport</a>
+                
+                <ul>
+                    <li>
+                        <a href="//sport.sfr.fr" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/sport'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Tous les sports</a>
+                    </li>
+                
+                
+                </ul>
+            </li>
+            
+            
+            
+            
+            <li class="category--hasCategory">
+                <a href="#">SFR News</a>
+                
+                <ul>
+                    <li>
+                        <a href="//news.sfr.fr" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/news'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les news</a>
+                    </li>
+                
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">Actualites</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/actualites/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/actualites'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/actualites/economie/" onclick="s_tl(this,'o',s.pageName+'/Nav/economie'); return true;">Economie</a></li>
+                              
+                             <li><a href="//news.sfr.fr/actualites/monde/" onclick="s_tl(this,'o',s.pageName+'/Nav/monde'); return true;">Monde</a></li>
+                              
+                             <li><a href="//news.sfr.fr/actualites/politique/" onclick="s_tl(this,'o',s.pageName+'/Nav/politique'); return true;">Politique</a></li>
+                              
+                             <li><a href="//news.sfr.fr/actualites/societe/" onclick="s_tl(this,'o',s.pageName+'/Nav/societe'); return true;">Societe</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li>
+                         <a href="//news.sfr.fr/arubriquer/" onclick="s_tl(this,'o',s.pageName+'/Nav/arubriquer'); return true;">Arubriquer</a>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">Cine series</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/cine-series/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/cine-series'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/cine-series/cinema/" onclick="s_tl(this,'o',s.pageName+'/Nav/cinema'); return true;">Cinema</a></li>
+                              
+                             <li><a href="//news.sfr.fr/cine-series/series/" onclick="s_tl(this,'o',s.pageName+'/Nav/series'); return true;">Series</a></li>
+                              
+                             <li><a href="//news.sfr.fr/cine-series/tv/" onclick="s_tl(this,'o',s.pageName+'/Nav/tv'); return true;">Tv</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">Divertissement</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/divertissement/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/divertissement'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/cinema/" onclick="s_tl(this,'o',s.pageName+'/Nav/cinema'); return true;">Cinema</a></li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/livres-et-bd/" onclick="s_tl(this,'o',s.pageName+'/Nav/livres-et-bd'); return true;">Livres et bd</a></li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/musique/" onclick="s_tl(this,'o',s.pageName+'/Nav/musique'); return true;">Musique</a></li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/series/" onclick="s_tl(this,'o',s.pageName+'/Nav/series'); return true;">Series</a></li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/spectacles/" onclick="s_tl(this,'o',s.pageName+'/Nav/spectacles'); return true;">Spectacles</a></li>
+                              
+                             <li><a href="//news.sfr.fr/divertissement/tv/" onclick="s_tl(this,'o',s.pageName+'/Nav/tv'); return true;">Tv</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">High tech</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/high-tech/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/high-tech'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/actu/" onclick="s_tl(this,'o',s.pageName+'/Nav/actu'); return true;">Actu</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/applis-et-logiciels/" onclick="s_tl(this,'o',s.pageName+'/Nav/applis-et-logiciels'); return true;">Applis et logiciels</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/astuces/" onclick="s_tl(this,'o',s.pageName+'/Nav/astuces'); return true;">Astuces</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/epoque/" onclick="s_tl(this,'o',s.pageName+'/Nav/epoque'); return true;">Epoque</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/futur/" onclick="s_tl(this,'o',s.pageName+'/Nav/futur'); return true;">Futur</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/jeux-video/" onclick="s_tl(this,'o',s.pageName+'/Nav/jeux-video'); return true;">Jeux video</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/nouveautes/" onclick="s_tl(this,'o',s.pageName+'/Nav/nouveautes'); return true;">Nouveautes</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/securite/" onclick="s_tl(this,'o',s.pageName+'/Nav/securite'); return true;">Securite</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/technoscience/" onclick="s_tl(this,'o',s.pageName+'/Nav/technoscience'); return true;">Technoscience</a></li>
+                              
+                             <li><a href="//news.sfr.fr/high-tech/tests/" onclick="s_tl(this,'o',s.pageName+'/Nav/tests'); return true;">Tests</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">Insolite</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/insolite/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/insolite'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/insolite/monde/" onclick="s_tl(this,'o',s.pageName+'/Nav/monde'); return true;">Monde</a></li>
+                              
+                             <li><a href="//news.sfr.fr/insolite/societe/" onclick="s_tl(this,'o',s.pageName+'/Nav/societe'); return true;">Societe</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">People</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/people/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/people'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/people/musique/" onclick="s_tl(this,'o',s.pageName+'/Nav/musique'); return true;">Musique</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li>
+                         <a href="//news.sfr.fr/politique/" onclick="s_tl(this,'o',s.pageName+'/Nav/politique'); return true;">Politique</a>
+                     </li>
+                    
+                 
+                    
+                    
+                    
+                     <li class="category--hasCategory">
+                         <a href="#">Style de vie</a>
+                         <ul>
+                            <li>
+                                <a href="//news.sfr.fr/style-de-vie/" class="category--home" onclick="s_tl(this,'o',s.pageName+'/Nav/style-de-vie'); return true;"><i class="fa fa-home" aria-hidden="true"></i> Toutes les rubriques</a>
+                            </li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/cuisine/" onclick="s_tl(this,'o',s.pageName+'/Nav/cuisine'); return true;">Cuisine</a></li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/deco/" onclick="s_tl(this,'o',s.pageName+'/Nav/deco'); return true;">Deco</a></li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/mode-beaute/" onclick="s_tl(this,'o',s.pageName+'/Nav/mode-beaute'); return true;">Mode beaute</a></li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/psycho/" onclick="s_tl(this,'o',s.pageName+'/Nav/psycho'); return true;">Psycho</a></li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/sante/" onclick="s_tl(this,'o',s.pageName+'/Nav/sante'); return true;">Sante</a></li>
+                              
+                             <li><a href="//news.sfr.fr/style-de-vie/voyage/" onclick="s_tl(this,'o',s.pageName+'/Nav/voyage'); return true;">Voyage</a></li>
+                             
+                         </ul>
+                     </li>
+                    
+                
+                </ul>
+            </li>
+            
+            <li>
+                <a href="https://www.zive.fr" onclick="s_tl(this,'o',s.pageName+'/Nav/play'); return true;">SFR Play</a>
+            </li>
+            <li>
+                <a href="//www.sfr.fr/sfr-et-moi/vos-services-sfr/sfr-presse/" onclick="s_tl(this,'o',s.pageName+'/Nav/presse'); return true;">SFR Presse</a>
+            </li>
+        </ul>
+    </nav>
+ </section>
+ 
+ 
+<script>
+(function ($) {
+    $(document).ready(function(){
+        
+        
+        // HEADER NAV
+        
+        $('.navigation__categories li').on('click', function(e){
+            e.stopPropagation();
+            if( $(this).hasClass('category--hasCategory') || $(this).hasClass('category--selected') ){
+                if( $(this).hasClass('category--selected') ){
+                    $('.navigation__categories li').removeClass('category--selected');
+                    if( $(this).parents('li').eq(0).hasClass('category--hasCategory') ){
+                        $(this).find('ul').hide();
+                        $(this).parents('li').eq(0).addClass('category--selected');
+                        var newHeight = parseInt( ($('.category--selected > ul').outerHeight() + $('.category--selected > a').outerHeight()), 10);
+                    }
+                    else {
+                        $('.navigation__categories ul').hide();
+                        var newHeight = "auto";
+                    }
+                }
+                else {
+                    $('.navigation__categories li').removeClass('category--selected');
+                    $(this).addClass('category--selected').find(' > ul').show();
+                    $(this).parents('li.category--hasCategory > ul').show();
+                    var newHeight = parseInt( ($('.category--selected > ul').outerHeight() + $('.category--selected > a').outerHeight()), 10);
+                }
+                $('.navigation__categories').css("height", newHeight);
+            }
+            else {
+                //console.log('Suivre le lien');
+            }
+        });
+        
+        $('.js-viewMore').on('click', function(e){
+            e.preventDefault();
+            if( $('.navigation').is(':visible') ){
+                $('.navigation').slideUp(1);
+                $('html, body').removeClass('noScroll');
+                $('.item--more').removeClass('open');
+            }
+            else {
+                $('.navigation').slideDown(1);
+                $('html, body').addClass('noScroll');
+                $('.item--more').addClass('open');
+            
+                if( $('.navigation__categories li').hasClass('category--selected') ){
+                    $('.category--selected').parents('ul').show();
+                    var newHeight = parseInt( ($('.category--selected > ul').outerHeight() + $('.category--selected > a').outerHeight()), 10);
+                    $('.navigation__categories').css("height", newHeight);
+                }
+            }
+        });
+        
+    });
+})($sfr);
+</script>
+
+
+
+    
+
+
+<div class="surface">
+    <!-- SUBMENU -->
+    <section data-pub="BAN" class="ad ad--header"></section>
+    <section class="pageHeader">
+        <div class="pageHeader__content">
+                
+                    <h1 class="pageHeader__title title--3">Sports extrêmes</h1>
+                
+        </div>
+    </section>
+
+    <section class="socialAndFilters">
+        <div class="socialAndFilters__content">
+            <nav>
+                <ul class="filters">
+                    <li class="active all">
+                        <a href="#">Tous</a>
+                    </li>
+                    <li class="dreamteam">
+                        <a href="#">Dreamteam</a>
+                    </li>
+                    <li class="media">
+                        <a href="#">Vidéos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+  
+    <!-- ARTICLE LIST -->
+    
+    
+        
+    
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+            
+        
+        
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+            
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+            
+        
+        
+    
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            
+        
+        
+    
+    
+    <section class="sectionLayout sectionLayout--flex">
+        <section class="mainContent post">
+            <div class="row article-container">
+                <article class="small-12 columns article-item  mea">
+                                        <a href="/sports-extremes/aucoeurdelextreme39.html" data-type="media">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/acde39.jpg?w=964)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                            <h2 class="title--1">EN VIDEO - « Au cœur de l’extrême » en Californie (27 juin)</h2>
+                                            <div class="post-infos">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <div class="date">
+                                                    <!-- <span class="show-for-small-only sep">18h26</span> -->
+                                                    <span>
+                                                        <span class="sep">Posté le 27/06/2017 à 18h26</span><span class="sep show-for-medium-up">Modifié le 27/06/2017 à 18h31</span></span>
+                                                </div>
+                                                <span class="author">Morgan Besa</span>
+                                            </div>
+                                            <p class="paragraphe js-meta-description ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle. Cette semaine, Bruno Detante vous emmène en Californie, à Long Beach, pour découvrir entre autres le Dew Tour, une compétition de skate board. Magazine.</p>
+                                        </a>
+                                    </article>
+                
+                    <div class="small-12 columns thumbnail-list">
+                        <article class="thumbnail-item small-6 medium-4 columns">
+                                        <a href="/sports-extremes/en-video-au-coeur-de-lextreme-a-grenoble-19-juin-partie-2.html" data-type="media">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/acdep2.png?w=726)" class="thumbnail-img small ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                            <h2 class="title--1 title-th">EN VIDEO - "Au coeur de l'extrême" à Grenoble (19 juin - partie 2)</h2>
+                                            <div class="thumbnail-content-info">
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">17h24</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 20/06/2017 à 17h24</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, rendez-vous à Grenoble à l'occasion du retour six ans après de la Ninja Split. A suivre également une interview de Julien Cudot, le leader du roller français. Partie 2.</p>
+                                            </div>
+                                        </a>
+                                    </article><article class="thumbnail-item small-6 medium-4 columns">
+                                        <a href="/sports-extremes/en-video-au-coeur-de-lextreme-a-grenoble-19-juin-partie-1.html" data-type="media">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/acdep1-1.png?w=726)" class="thumbnail-img small ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                            <h2 class="title--1 title-th">EN VIDEO - "Au coeur de l'extrême" à Grenoble (19 juin - partie 1)</h2>
+                                            <div class="thumbnail-content-info">
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">17h22</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 20/06/2017 à 17h22</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, rendez-vous à Grenoble à l'occasion du retour six ans après de la Ninja Spin. Une compétition de BMX faisant partie du circuit mondial. Partie 1.</p>
+                                            </div>
+                                        </a>
+                                    </article><article class="thumbnail-item small-6 medium-4 columns">
+                                        <a href="/sports-extremes/en-video-au-coeur-de-lextreme-au-lac-de-serre-poncon-12-juin-partie-2.html" data-type="media">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/p2acde.png?w=726)" class="thumbnail-img small ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                            <h2 class="title--1 title-th">EN VIDEO - "Au coeur de l'extrême" au Lac de Serre-Ponçon (12 juin - partie 2)</h2>
+                                            <div class="thumbnail-content-info">
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">21h55</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 13/06/2017 à 21h55</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, rendez-vous sur le Lac de Serre-Ponçon pour découvrir le wakesurf. Retrouvez également Culture Box avec l'artiste Vania. Partie 2. </p>
+                                            </div>
+                                        </a>
+                                    </article>
+                    </div>
+                
+                
+                    <div id="article-simple" class="article-simple">
+                        <article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/en-video-au-coeur-de-lextreme-au-lac-de-serre-poncon-12-juin-partie-1.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/p1acde.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - "Au coeur de l'extrême" au Lac de Serre-Ponçon (12 juin - partie 1)</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">21h54</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 13/06/2017 à 21h54</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, rendez-vous sur le Lac de Serre-Ponçon pour découvrir le wakesurf. Retrouvez également une interview du rider FMX, Rémi Bizouard. Partie 1. </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/en-video-au-coeur-de-lextreme-a-biarritz-6-juin-partie-2.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/beatboxers.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - "Au coeur de l'extrême" à Biarritz (6 juin - partie 2)</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">19h30</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 06/06/2017 à 19h30</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, escale à Biarritz à l'occasion des championnats du monde de surf ISA. Au programme une interview de Vincent Duvignac, membre de l'équipe de France de surf.  Rencontre également les Berywam, groupe de beatboxers. </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/en-video-au-coeur-de-lextreme-a-biarritz-6-juin-partie-1.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/acdep1.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - "Au coeur de l'extrême" à Biarritz (6 juin - partie 1)</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">19h30</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 06/06/2017 à 19h30</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, escale à Biarritz à l'occasion des championnats du monde de surf ISA. Un événement qui n'avait plus été organisé en France depuis 1992. Un test grandeur nature aussi pour la ville qui organisera l'épreuve de surf si Paris est désignée comme ville hôte des Jeux Olympiques de 2024.</p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/fiji-pro-flores-et-duru-passent-les-repechages.html" data-type="simple">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/flores-fiji-2017.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Fiji Pro : Florès et Duru passent les repêchages</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">12h19</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 05/06/2017 à 12h19</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe hidden"></p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/fiji-pro-triomphe-pour-conlogue-bourez-au-top.html" data-type="simple">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/courtney-conlogue-fiji-2017.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Fiji Pro : Triomphe pour Conlogue, Bourez au top</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">11h20</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 04/06/2017 à 11h20</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe hidden"></p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/en-video-au-cur-de-lextreme-au-fise-de-montpellier-31-mai-partie-2.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/fise2.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - "Au cœur de l’extrême" au FISE de Montpellier (31 mai - partie 2)</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">14h27</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 01/06/2017 à 14h27</span></span>
+                                                    </div>
+                                                    <span class="author">Anthony Poulain</span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, escale à Montpellier à l’occasion de la 20e édition du Festival International des Sports Extrêmes. Avec un focus tout particulier sur les compétitions de BMX (spine rampe) et de mountain bike (slopestyle) ainsi que ses champions (Justin Fouque, Mehdi Gani,…). Partie 2.</p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/en-video-au-cur-de-lextreme-au-fise-de-montpellier-31-mai-partie-1.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/fiseok.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - "Au cœur de l’extrême" au FISE de Montpellier (31 mai - partie 1)</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">14h22</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 01/06/2017 à 14h22</span></span>
+                                                    </div>
+                                                    <span class="author">Anthony Poulain</span>
+                                                </div>
+                                                <p class="paragraphe ">Tous les mardis sur SFR Sport 3, retrouvez « Au cœur de l’extrême », le magazine Trip-Freestyle-Lifestyle présenté par Bruno Detante. Cette semaine, escale à Montpellier à l’occasion de la 20e édition du Festival International des Sports Extrêmes. Avec un focus tout particulier sur les compétitions de BMX (spine rampe) et de mountain bike (slopestyle) ainsi que ses champions (Justin Fouque, Mehdi Gani,…). Partie 1. </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/fiji-pro-defay-sort-en-quart-conlogue-et-weston-webb-en-finale.html" data-type="simple">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/conloguesurfok.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Fiji Pro : Defay sort en quart, Conlogue et Weston-Webb en finale</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">12h25</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 31/05/2017 à 12h25</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe hidden"></p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/fiji-pro-defay-elimine-ado-et-file-en-quarts.html" data-type="simple">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/johannedefayok.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Fiji Pro : Defay élimine Ado et file en quarts</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">11h05</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 30/05/2017 à 11h05</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe hidden"></p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/exclu-video-fise-martin-encore-au-dessus-lors-du-bmx-freestyle.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/loganmartin.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EXCLU VIDEO - FISE : Martin encore au-dessus lors du BMX Freestyle</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">20h07</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 20h07</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Après s'être adjugé le Spine Ramp Pro ce samedi, Logan Martin a enchaîné sur le BMX Freestyle du FISE de Montpellier, ce dimanche. L'Australien qui a obtenu une note de 95.00 devance le Russe Andreev Konstantin (93.00) et le Vénézuélien Daniel Dhers (92.00).</p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/exclu-video-fise-prevost-simpose-sur-la-finale-bmx-flat.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/prevost.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EXCLU VIDEO - FISE : Prevost s'impose sur la finale de BMX Flat</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">17h21</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 17h21</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe ">Jean William Prevost s'est imposé ce dimanche dans la finale du BMX Flat. Le Canadien a enflammé le public du FISE grâce notamment à un dernier enchaînement de toute beauté. </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/en-video-dans-les-coulisses-du-bmx-flat-et-des-apparts-avec-vue-sur-le-fise.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/stripfisebleu.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EN VIDEO - Dans les coulisses du BMX Flat et des apparts avec vue sur le FISE</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">16h04</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 16h04</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe ">Le FISE (Festival International des Sports Extrêmes) fête ses 20 ans cette année et SFR Sport 3 n’aurait raté ça pour rien au monde. L’émission « Strip FISE » vous plonge dans les dessous de cet événement très populaire. Aujourd’hui, focus sur le BMX Flat et sur les personnes dont les habitations donnent directement sur le lieu des épreuves.</p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/surf/duru-complete-la-reussite-francaise-avec-largent.html" data-type="simple">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/duru-joan.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Duru et les Bleus complètent la réussite française</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">14h53</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 14h53</span><span class="sep show-for-medium-up">Modifié le 28/05/2017 à 16h02</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe hidden"></p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/exclu-video-fise-daniel-grant-remporte-la-finale-du-wakeboard.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/grantrun2.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EXCLU VIDEO - FISE : Daniel Grant remporte la finale du wakeboard</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">15h12</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 15h12</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe ">Daniel Grant a remporté ce samedi à Montpellier la finale du wakeboard. Le Thaïlandais a devancé l'Australien Aaron Gunn. L'Autrichien Dominik Hernler complète le podium. </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/le-fise-en-exclu-et-en-direct-sur-sfr-sport-3.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/fisebmxok.jpg?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">Le programme du FISE Montpellier en exclu et en direct sur SFR Sport 3 </h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">18h33</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 23/05/2017 à 18h33</span><span class="sep show-for-medium-up">Modifié le 28/05/2017 à 09h30</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport</span>
+                                                </div>
+                                                <p class="paragraphe ">La 20e édition du FISE a débuté mercredi à Montpellier et se déroulera jusqu'à dimanche. Le Festival International des Sports Extrêmes rassemble, durant cinq jours le gratin international et devant des centaines de milliers d’inconditionnels, les principales disciplines de glisse comme le BMX, le roller, le skateboard, le mountain bike ou encore le wakeboard. Découvrez la programmation antenne détaillée.</p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article><article class="small-12 columns article-item">
+                                    <a href="/sports-extremes/fise/exclu-video-fise-martin-simpose-sur-le-bmx-spine-ramp-pro.html" data-type="media">
+                                        <div class="small-12 medium-4 columns no-padding ">
+                                            <div style="background-image: url(//static.s-sfr.fr/media/martin-2.png?w=726)" class="thumbnail-img ">
+                                                <div class="play-wrapper">
+                                                    <div class="play-icon">
+                                                        <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                                    </div>
+                                                    <!--<div class="play-time show-for-medium-up">
+                                                        <span>1:52</span>
+                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="small-12 medium-8 columns no-padding">
+                                            <div class="article-item-details">
+                                                <h2 class="title--1">EXCLU VIDEO - FISE : Martin s'impose sur le BMX Spine Ramp Pro</h2>
+                                                <div class="post-infos">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <div class="date">
+                                                        <!-- <span class="show-for-small-only sep">00h24</span> -->
+                                                        <span>
+                                                            <span class="sep">Posté le 28/05/2017 à 00h24</span></span>
+                                                    </div>
+                                                    <span class="author">SFR Sport </span>
+                                                </div>
+                                                <p class="paragraphe ">Logan Martin a impressionné à Montpellier ce samedi lors du FISE. Sur le BMX Spine Ramp Pro, l'Australien s'est imposé avec une note de 96.00. Il devance l'Argentin, Jose Torres Gil (93.00) et le Vénézuélien Daniel Dhers (91.00). </p>
+                                            </div>
+                                    </div>
+                                    </a>
+                                </article>
+                    </div>
+                
+                <div class="small-12 columns no-padding loader hidden">
+                    <img src="//static.s-sfr.fr/media/loader-2.gif" />
+                </div>
+                
+                <div class="small-12 columns no-padding no-articles hidden">
+                    <p>N'allez pas trop loin ! </p>
+                    <p>Vos articles arrivent bientôt ! </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SIDEBAR -->
+        <section class="sidebar">
+            <!--[TIILTA-INJECTED:sport:elements/injections/sidebar.mvel:tiilta_import_870732]--><div class="sidebar__content">
+        <section data-pub="PAV" class="ad ad--sidebar"></section>
+        <section class="sidebar__block">
+            <h3 class="title--3">La chaine 100% foot</h3>
+            <div class="featuredApp">
+                <div class="featuredApp__image">
+                    <img src="//static.s-sfr.fr/media/logo-sfrsport-1.png" alt="logo sfr sport 1">
+                </div>
+                <div class="featuredApp__description">
+                    <p>Profitez de la chaîne 100% Foot dont la « Premier League » en exclusivité française dès le mois d’août.</p>
+                </div>
+                <div class="featuredApp__action">
+                    <a href="http://tv.sfr.fr/television-sur-ordinateur-par-internet/sfr_sport_1" class="chevron">Regarder</a><br>
+                    <a href="http://tv.sfr.fr/epg/maintenant/SFR%20Sport-51601/" class="chevron">Guide TV</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="sidebar__block">
+            <h3 class="title--3">La chaine multisports</h3>
+            <div class="featuredApp">
+                <div class="featuredApp__image">
+                    <img src="//static.s-sfr.fr/media/logo-sfrsport-2.png" alt="logo sfr sport 2">
+                </div>
+                <div class="featuredApp__description">
+                    <p>Vivez toutes vos passions avec le rugby anglais et le basket sur notre chaîne multisports.</p>
+                </div>
+                <div class="featuredApp__action">
+                    <a href="http://tv.sfr.fr/television-sur-ordinateur-par-internet/sfr_sport_2" class="chevron">Regarder</a><br>
+                    <a href="http://tv.sfr.fr/epg/maintenant/SFR%20Sport-51601/" class="chevron">Guide TV</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="sidebar__block">
+            <h3 class="title--3">La chaine des sports extrêmes</h3>
+            <div class="featuredApp">
+                <div class="featuredApp__image">
+                    <img src="//static.s-sfr.fr/media/logo-sfrsport-3.png" alt="logo sfr sport 3">
+                </div>
+                <div class="featuredApp__description">
+                    <p>Plongez dans l’actualité des sports extrêmes avec le meilleur du surf et les compétitions mondiales de wakeboard, roller, BMX…</p>
+                </div>
+                <div class="featuredApp__action">
+                    <a href="http://tv.sfr.fr/television-sur-ordinateur-par-internet/sfr_sport_3" class="chevron">Regarder</a><br>
+                    <a href="http://tv.sfr.fr/epg/maintenant/SFR%20Sport-51601/" class="chevron">Guide TV</a>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="sidebar__block">
+            <h3 class="title--3">La chaine de tous les combats</h3>
+            <div class="featuredApp">
+                <div class="featuredApp__image">
+                    <img src="//static.s-sfr.fr/media/logo-sfrsport-5.png" alt="logo sfr sport 5">
+                </div>
+                <div class="featuredApp__description">
+                    <p>Enflammez-vous pour les sports de combats et les arts martiaux.</p>
+                </div>
+                <div class="featuredApp__action">
+                    <a href="http://tv.sfr.fr/television-sur-ordinateur-par-internet/sfr_sport_5" class="chevron">Regarder</a><br>
+                    <a href="http://tv.sfr.fr/epg/maintenant/SFR%20Sport-51601/" class="chevron">Guide TV</a>
+                </div>
+            </div>
+        </section>
+            
+    </div>
+<!--[END-TIILTA-INJECTION:sport:elements/injections/sidebar.mvel:tiilta_import_870732]-->
+            <!-- PENSER A REACTIVER POUR ACTIVER LE PLUGIN OPTA -->
+            <!--[TIILTA-CMS:sport:elements/opta:tiilta_cms_111599]--><!--[END-TIILTA-CMS:sport:elements/opta:tiilta_cms_111599]-->
+        <section>
+    </section>
+    
+    
+    
+        <a href="//sports-extremes/?page=1" class="page-after hide">1</a>
+    
+    <!-- MUSTACHE TEMPLATE -->
+    <script id="head-article-tpl" type="template/mustache" class="hidden">
+        <article class="small-12 columns article-item  mea">
+            <a href="{{pageUrl}}
+
+" data-type={{type}}
+
+>
+                <div style="background-image: url({{imageUrl}}?w=964)" class="thumbnail-img ">
+                    <div class="play-wrapper">
+                        <div class="play-icon">
+                            <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                        </div>
+                    <!--<div class="play-time show-for-medium-up">
+                            <span>1:52</span>
+                        </div>-->
+                    </div>
+                </div>
+                <h2 class="title--1">{{title}}
+
+</h2>
+                <div class="post-infos">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <div class="date">
+                        <!-- <span class="show-for-small-only sep">{{creationDateFormatted}}
+
+</span> -->
+                        <span>
+                            <span class="sep">Posté le {{creationDateFormatted}}
+
+ à {{creationTimeFormatted}}
+
+</span>
+                            {{#isModified}}
+
+
+                            <span class="sep show-for-medium-up">Modifié le {{modificationDateFormatted}}
+
+ à {{modificationTimeFormatted}}
+
+</span>
+                            {{/isModified}}
+
+
+                        </span>
+                    </div>
+                    <span class="author">{{author}}
+
+</span>
+                </div>
+                <p class="paragraphe js-meta-description">{{chapo}}
+
+</p>
+            </a>
+        </article>
+    </script>
+    
+    <!-- MUSTACHE TEMPLATE -->
+    <script id="small-article-tpl" type="template/mustache" class="hidden">
+        <article class="thumbnail-item small-6 medium-4 columns">
+           <a href="{{pageUrl}}
+
+" data-type={{type}}
+
+>
+                <div style="background-image: url({{imageUrl}}?w=726)" class="thumbnail-img small">
+                    <div class="play-wrapper">
+                        <div class="play-icon">
+                            <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                        </div>
+                        <!--<div class="play-time show-for-medium-up">
+                            <span>1:52</span>
+                        </div>-->
+                    </div>
+                </div>
+                <h2 class="title--1 title-th">{{title}}
+
+</h2>
+                <div class="thumbnail-content-info">
+                    <div class="post-infos">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <div class="date">
+                            <!-- <span class="show-for-small-only sep">{{creationDateFormatted}}
+
+</span> -->
+                            <span>
+                                <span class="sep">Posté le {{creationDateFormatted}}
+
+ à {{creationTimeFormatted}}
+
+</span>
+                                {{#isModified}}
+
+
+                                <span class="sep show-for-medium-up">Modifié le {{modificationDateFormatted}}
+
+ à {{modificationTimeFormatted}}
+
+</span>
+                                {{/isModified}}
+
+
+                            </span>
+                        </div>
+                        <span class="author">{{author}}
+
+</span>
+                    </div>
+                    <p class="paragraphe">{{chapo}}
+
+</p>
+                </div>
+            </a>
+        </article>
+    </script>
+    
+    <!-- MUSTACHE TEMPLATE -->
+    <script id="simple-tpl" type="template/mustache" class="hidden">
+        <article class="small-12 columns article-item">
+            <a href="{{pageUrl}}
+
+" data-type={{type}}
+
+>
+                {{#imageUrl}}
+
+
+                    <div class="small-12 medium-4 columns no-padding">
+                        <div 
+                        style="background-image: url({{imageUrl}}?w=726)"
+                        class="thumbnail-img ">
+                            <div class="play-wrapper hidden">
+                                <div class="play-icon">
+                                    <i class="fa fa-play fa-4x" aria-hidden="true"></i>
+                                </div>
+                                <!--<div class="play-time show-for-medium-up">
+                                    <span>1:52</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                <div class="small-12 medium-8 columns no-padding">
+                {{/imageUrl}}
+
+
+                {{^imageUrl}}
+
+
+                <div class="small-12 medium-12 columns no-padding">
+                {{/imageUrl}}
+
+
+                    <div class="article-item-details">
+                        <h2 class="title--1">{{title}}
+
+</h2>
+                        <div class="post-infos">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <div class="date">
+                                <!-- <span class="show-for-small-only sep">{{creationDateFormatted}}
+
+</span> -->
+                                <span>
+                                    <span class="sep">Posté le {{creationDateFormatted}}
+
+ à {{creationTimeFormatted}}
+
+</span>
+                                    {{#isModified}}
+
+
+                                    <span class="sep show-for-medium-up">Modifié le {{modificationDateFormatted}}
+
+ à {{modificationTimeFormatted}}
+
+</span>
+                                    {{/isModified}}
+
+
+                                </span>
+                            </div>
+                            <span href="#" rel="author" class="author">La rédaction</span>
+                        </div>
+                        <p class="paragraphe">{{chapo}}
+
+</p>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </script>
+</div>
+    
+<!-- footer -->
+ 
+ <style>
+    .footer {
+        background: #302d2d;
+    }
+    .footer__content {
+        max-width: 1318px;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer__content:before, 
+    .footer__content:after {
+        display: table;
+        content: "";
+    }
+    .footer__content:after {
+        clear: both;
+    }
+    .footer__list {
+        font-size: 0;
+        padding: 0;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .footer__list > li {
+        display: inline-block;
+        font-size: 12px;
+        font-family: "ClearSans-Regular", Sans-Serif;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        vertical-align: top;
+        margin: 5px 25px;
+    }
+    .footer__list > li > a {
+        display: block;
+        color: #666;
+        text-decoration: none;
+        transition: color 150ms ease;
+    }
+    .footer__list > li > a:hover {
+        color: #F2F2F2;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 768px){
+
+    }
+    @media screen and (max-width: 767px){
+        .footer__content {
+            max-width: 100%;
+            padding: 0 12px 30px;
+            height: auto;
+        }
+        .footer__list {
+            text-align: left;
+        }
+        .footer__list > li {
+            display: block;
+            margin: 12.5px 0;
+            font-size: 14px
+        }
+    }
+</style>
+<link href="//static.s-sfr.fr/resources/css/layouts/sfr.footer.css" rel="stylesheet" media="screen">
+<footer style="background-color:#302d2d;margin-top:0;"class="sfrNC">
+
+  <div class="row">
+    <div class="min-1024 large-12 colums">
+       
+        <!-- DESKTOPS -->
+         
+         <div class="row desktop container-footer-menu-desktop">
+          
+          <div class="col-footer-desktop">
+            <h3 class="col-title-footer-desktop"><a href="https://sport.sfr.fr/#sfrintid=P_footer_sport" target="_blank">SFR SPORT</a></h3>
+            <ul>
+              <li><a href="https://sport.sfr.fr/football/#sfrintid=P_footer_sport_footbal" target="_blank">Football</a></li>
+              <li><a href="https://sport.sfr.fr/basket/#sfrintid=P_footer_sport_basket" target="_blank">Basket</a></li>
+              <li><a href="https://sport.sfr.fr/rugby/#sfrintid=P_footer_sport_rugby" target="_blank">Rugby</a></li>
+              <li><a href="https://sport.sfr.fr/tennis/#sfrintid=P_footer_sport_tennis" target="_blank">Tennis</a></li>
+              <li><a href="https://sport.sfr.fr/cyclisme/#sfrintid=P_footer_sport_cyclisme" target="_blank">Cyclisme</a></li>
+              <li><a href="https://sport.sfr.fr/#sfrintid=P_footer_sport_plus-de-news" target="_blank">Plus de sports</a></li>
+            </ul>
+          </div>
+          <div class="col-footer-desktop">
+            <h3 class="col-title-footer-desktop"><a href="https://news.sfr.fr/#sfrintid=P_footer_sport_plus-de-sport" target="_blank">SFR NEWS</a></h3>
+            <ul>
+              <li><a href="https://news.sfr.fr/actualites/#sfrintid=P_footer_news" target="_blank">Actualités</a></li>
+              <li><a href="https://news.sfr.fr/cine-series/#sfrintid=P_footer_news_cine-series" target="_blank">Ciné Séries</a></li>
+              <li><a href="https://news.sfr.fr/high-tech/#sfrintid=P_footer_news_high-tech" target="_blank">High-tech</a></li>
+              <li><a href="https://news.sfr.fr/people/#sfrintid=P_footer_news_people" target="_blank">People</a></li>
+              <li><a href="https://news.sfr.fr/style-de-vie/#sfrintid=P_footer_news_style-de-vie" target="_blank">Style de vie</a></li>
+              <li><a href="https://news.sfr.fr/#sfrintid=P_footer_news_plus-de-news" target="_blank">Plus de news</a></li>
+            </ul>
+          </div> 
+          <div class="col-footer-desktop">
+            <h3 class="col-title-footer-desktop"><a href="http://tv.sfr.fr/#sfrintid=P_footer_play" target="_blank">SFR PLAY</a></h3>
+            <ul>
+              <li><a href="http://tv.sfr.fr/epg/maintenant/#sfrintid=P_footer_guide-tv" target="_blank">Guide TV</a></li>
+              <li><a href="http://tv.sfr.fr/television-sur-ordinateur-par-internet/#sfrintid=P_footer_play_tv-pc" target="_blank">TV sur PC</a></li>
+              <li><a href="https://play.sfr.fr/#sfrintid=P_footer_play_vod" target="_blank">SFR Play - VOD illimitée</a></li>
+              <li><a href="http://club-video.sfr.fr/#sfrintid=P_footer_play_club-video" target="_blank">Club vidéo - VOD </a></li>
+              <li><a href="http://www.sfr.fr/sfr-et-moi/vos-services-sfr/game-on-demand.html#sfrintid=P_footer_play_GOD" target="_blank">Jeux vidéo</a></li>
+              <li><a href="http://tv.sfr.fr/enregistrement-a-distance/#sfrintid=P_footer_play_ma-tv" target="_blank">Plus de divertissements</a></li>
+            </ul>
+          </div>
+          <div class="col-footer-desktop">
+            <h3 class="col-title-footer-desktop"><a href="http://magazine-presse.sfr.fr/#sfrintid=P_footer_presse" target="_blank">SFR PRESSE</a></h3>
+            <ul>
+               <li><a href="http://magazine-presse.sfr.fr/actualites" target="_blank">Actualités</a></li>
+              <li><a href="http://magazine-presse.sfr.fr/feminins" target="_blank">Féminins</a></li>
+              <li><a href="http://magazine-presse.sfr.fr/people-tv" target="_blank">People & TV</a></li>
+              <li><a href="http://magazine-presse.sfr.fr/eco-high-tech" target="_blank">Eco & High Tech</a></li>
+              <li><a href="http://magazine-presse.sfr.fr/deco-cuisine" target="_blank">Décoration & cuisine</a></li>
+              <li><a href="http://magazine-presse.sfr.fr/#sfrintid=P_footer_presse_plus-magazines" target="_blank"><!--<img style="margin-right:5px;" src="//static.s-sfr.fr/media/picto_me_footer.png">-->Plus de magazines</a></li>
+            </ul>
+          </div>
+        </div>
+
+         
+        <!-- DESKTOPS -->
+
+
+        
+         <!--
+        <div class="row mobile tablet mobile-links">
+          <div class="small-6 medium-3 columns">
+            <h3><a href="" target="_blank"></a></h3>
+          </div>
+          <div class="small-6 medium-3 columns">
+            <h3><a href="" target="_blank"></a></h3>
+          </div>
+          <div class="small-6 medium-3 columns">
+            <h3><a href="" target="_blank"></a></h3>
+          </div>
+          <div class="small-6 medium-3 columns">
+            <h3><a href="javascript:window._eT&&_eT.CkML&&_eT.CkML()" target="_blank">Cookies</a></h3>
+          </div>
+        </div>
+         -->
+
+    
+      <div class="row">
+        <div class="min-1024 large-12 colums"> 
+          
+            <div class="row container-footer-submenu">
+              <div class="large-12 columns content-footer-submenu">
+                <div class="row row-content-footer-submenu">
+                  <div class="small-2 columns desktop">
+                    <h3>REJOIGNEZ-NOUS</h3>
+                  </div>
+                  <div class="small-1 columns mobile tablet"></div>
+                  <div class="small-2 columns">
+                    <a href="https://fr-fr.facebook.com/SFR" target="_blank">
+                      <div class="facebook-picto picto-submenu"></div>
+                      <p class="desktop">Facebook</p>                    
+                    </a>
+                  </div>
+                  <div class="small-2 columns">
+                    <a href="https://twitter.com/SFR" target="_blank">
+                      <div class="twitter-picto picto-submenu"></div>
+                      <p class="desktop">Twitter</p>
+                    </a>
+                  </div>
+                  <div class="small-2 columns">
+                    <a href="https://www.youtube.com/user/sfr" target="_blank">
+                      <div class="youtube-picto picto-submenu"></div>
+                      <p class="desktop">Youtube</p>
+                    </a>
+                  </div>
+                  <div class="small-2 columns">
+                    <a href="https://plus.google.com/113745061295301596108/posts" target="_blank">
+                      <div class="google-picto picto-submenu"></div>
+                      <p class="desktop">Google +</p>
+                    </a>
+                  </div>
+                  <div class="small-2 columns">
+                    <a href="http://forum.sfr.fr#sfrintid=V_footer_contact-forum" target="_blank">
+                      <div class="forum-picto picto-submenu"></div>
+                      <p class="desktop">Forum SFR</p>
+                    </a>
+                  </div>
+                  <div class="small-1 columns mobile tablet"></div>
+                </div>
+              </div>
+            </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</footer>
+ <footer class="footer">
+    <nav class="footer__content">
+        <ul class="footer__list">
+            <li>
+                <a href="http://www.sfr.fr/">SFR© 2017 SFR</a>
+            </li>
+            <li class="selected">
+                <a href="http://www.sfr.fr/mentions-legales.html">Informations légales</a>
+            </li>
+            <li>
+                <a href="#" onclick="return window._eT&amp;&amp;_eT.CkML&amp;&amp;_eT.CkML()&amp;&amp;!1">Cookies</a>
+            </li>
+            <li>
+                <a href="http://www.pointdecontact.net/contact.aspx">Signaler un contenu illicite</a>
+            </li>
+            <li>
+                <a href="http://www.sfr.com/" target="_blank">Groupe SFR</a>
+            </li>
+        </ul>
+    </nav>
+ </section>
+ 
+
+
+
+    
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="//static.s-sfr.fr/sport/resources/js/libs/mustache.min.js"></script>
+
+<script type="text/javascript">
+    'use strict';
+    (function ($) {
+        var category = "sportsextremes",
+            hasArticle = true,
+            FILTERS_URL = {
+                'all': '/api/rest/tracking/published/',
+                'dreamteam': '/api/rest/tracking/dreamteam/',
+                'simple': '/api/rest/tracking/simple/',
+                'media': '/api/rest/tracking/media/'
+            },
+            TPL_IDS = {
+                'SIMPLE_TPL': {'tpl': '#simple-tpl', 'containerSelector': '.article-simple'},
+                'HEAD_TPL': {'tpl': '#head-article-tpl', 'containerSelector': '.article-container'},
+                'SMALL_TPL': {'tpl': '#small-article-tpl', 'containerSelector': '.thumbnail-list'}
+            },
+            page = null != null ? null : 0,
+            endArticle = false,
+            getArticlesUrl = FILTERS_URL['all'],
+            $filters = $('.socialAndFilters li'),
+            $loader = $('.loader'),
+            $noArticles = $('.no-articles');
+        
+        var renderTemplate = function(listJson, fromScroll){
+            var $articleWrapper = $(TPL_IDS['SIMPLE_TPL'].containerSelector),
+                tpl = $(TPL_IDS['SIMPLE_TPL'].tpl).html();
+                
+            for(var i in listJson){
+                if (listJson[i].creationDateFormatted != listJson[i].modificationDateFormatted || listJson[i].creationTimeFormatted != listJson[i].modificationTimeFormatted) {
+                   listJson[i].isModified = true;
+                }
+                if (!fromScroll) {
+                    if (i == 0) {
+                        tpl = $(TPL_IDS['HEAD_TPL'].tpl).html();
+                        $articleWrapper = $(TPL_IDS['HEAD_TPL'].containerSelector);
+                    } else if (i == 1) {
+                        tpl = $(TPL_IDS['SMALL_TPL'].tpl).html();
+                        $articleWrapper = $(TPL_IDS['SMALL_TPL'].containerSelector);
+                    } else if (i == 4) {
+                        tpl = $(TPL_IDS['SIMPLE_TPL'].tpl).html();
+                        $articleWrapper = $(TPL_IDS['SIMPLE_TPL'].containerSelector);
+                    }
+                }
+                
+                if (!fromScroll && i == 0) {
+                    $articleWrapper.prepend(Mustache.render(tpl, listJson[i]));
+                } else {
+                    $articleWrapper.append(Mustache.render(tpl, listJson[i]));
+                }
+            }
+        };
+        
+        var getArticles = function(categoryName, numPage, opt){
+            var url = ''
+                
+            if(categoryName != '' && getArticlesUrl != FILTERS_URL['media']){
+                url = getArticlesUrl+'category/'+categoryName+'/?page='+numPage
+            } else if (getArticlesUrl == FILTERS_URL['media']) {
+                url = getArticlesUrl + '?categories=' + categoryName + '&page=' + numPage;
+            } else {
+                url = getArticlesUrl+'?page='+numPage
+            }
+            
+            $.ajax({
+               url : url,
+               type : 'GET',
+               dataType : 'JSON',
+               success : function(resultat, statut){
+                   if(resultat != 'undefined' && resultat != ''){
+                       renderTemplate(resultat, opt.fromScroll);
+                   }else{
+                       endArticle = true;
+                   }
+                   $loader.addClass('hidden');
+                   //Nécessaire de masquer la barre qui sépare les articles lorsque article-container est vide
+                   if (!opt.fromScroll) {
+                       $('.thumbnail-list').removeClass('hidden');
+                   }
+               },
+        
+               error : function(resultat, statut, erreur){
+                   console.log(erreur);
+                   $loader.addClass('hidden');
+               }
+        
+            });
+        }
+        
+        var LinkPageRels = function(page) {
+            var beforeVal = $('.page-before').text();
+            var afterVal = $('.page-after').text();
+            
+            if (beforeVal && page) {
+                $('head').append('<link rel="prev" href="/'+"sports-extremes"+'/?page='+beforeVal+'">');
+            } else if (beforeVal && !page) {
+                $('head').append('<link rel="prev" href="/'+"sports-extremes"+'/">');
+            }
+            if (afterVal) {
+                $('head').append('<link rel="next" href="/'+"sports-extremes"+'/?page='+afterVal+'">');
+            }
+        };
+        
+        //infinite scroll
+        $(window).on('scroll', function(){
+            if(!endArticle && $noArticles.hasClass('hidden') && $loader.hasClass('hidden')){
+                var windowTopValue = $(window).scrollTop(),
+                   endScrollValue = $(document).height() - $(window).height();
+                
+                if( windowTopValue >= endScrollValue){
+                    $loader.removeClass('hidden');
+                    getArticles(category, ++page, {fromScroll: true});
+                };
+            } 
+        });
+        
+        $('.socialAndFilters li').on('click', function() {
+            var $selectedFilter = $(this);
+            
+           if (!$selectedFilter.hasClass('active')) {
+                var selectedClassName = $selectedFilter.attr('class');
+                getArticlesUrl = FILTERS_URL[selectedClassName];
+                $(TPL_IDS['SIMPLE_TPL'].containerSelector).empty();
+                $(TPL_IDS['HEAD_TPL'].containerSelector).find('.mea').remove();
+                $(TPL_IDS['SMALL_TPL'].containerSelector).empty();
+                page = 0;
+                $loader.removeClass('hidden');
+                $('.thumbnail-list').addClass('hidden'); //Pour cacher la barre lorque article-container est vide
+                getArticles(category, page, {fromScroll: false});
+           } 
+        });
+        
+        //full size last thumbnail-item on mobile
+        if($('.thumbnail-item').last()){
+            $('.thumbnail-item').last().removeClass('small-6').addClass('small-12'); 
+        } else{
+            $('.thumbnail-item').first().removeClass('small-6').addClass('small-12');
+        }
+        
+        //No articles
+        if(!hasArticle){
+            $('.no-articles').removeClass('hidden');
+        }
+        
+        LinkPageRels(page);
+    })(window.$sfr || window.$ || $);
+</script>
+<script type="text/javascript">
+    'use strict';
+    (function ($) {
+        var $filterList = $('.socialAndFilters .filters > li'),
+            $loader = $('.loader');
+        
+        var toFilter = function(){
+           var $el = $(this),
+               $allEl = $filterList,
+               type = $(this).attr('class').replace('all', '');
+               
+            $allEl.removeClass('active');
+            $el.addClass('active');
+        }
+        
+        $filterList.on('click', toFilter)
+    })(window.$sfr || window.$ || $);
+</script>  <script>(function($){
+ var description = $('.js-meta-description').text();
+ if (description) {
+     $('meta[name=description]').attr('content', $('.js-meta-description').text().substring(0,170));
+ }
+ })($sfr)</script>
+
+<script src="//static.s-sfr.fr/stats/footer.js" charset="UTF-8"></script>
+</body>
+</html>
